@@ -12,6 +12,6 @@ public class IndexController {
     @GetMapping("/")
     @ResponseBody
     public String index() {
-        return "Hello World" + LocalDateTime.now();
+        return "Hello World: " + LocalDateTime.now();
     }
 }
